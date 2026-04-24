@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.flippybird.app-merged_res-52:/raw_flap.ogg.flat",
+        "source": "com.example.flippybird.app-main-54:/raw/flap.ogg"
+    },
+    {
+        "merged": "com.example.flippybird.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.flippybird.app-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.flippybird.app-merged_res-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.flippybird.app-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.flippybird.app-merged_res-52:/drawable_ic_bird_icon.xml.flat",
+        "source": "com.example.flippybird.app-main-54:/drawable/ic_bird_icon.xml"
+    },
+    {
+        "merged": "com.example.flippybird.app-merged_res-52:/raw_score.ogg.flat",
+        "source": "com.example.flippybird.app-main-54:/raw/score.ogg"
+    },
+    {
+        "merged": "com.example.flippybird.app-merged_res-52:/raw_hit.ogg.flat",
+        "source": "com.example.flippybird.app-main-54:/raw/hit.ogg"
+    },
+    {
+        "merged": "com.example.flippybird.app-merged_res-52:/raw_bgm.ogg.flat",
+        "source": "com.example.flippybird.app-main-54:/raw/bgm.ogg"
+    }
+]

@@ -1,0 +1,14 @@
+R_DEF: Internal format may change without notice
+local
+color flippybird_dark
+color flippybird_primary
+color flippybird_sky
+drawable ic_bird_icon
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw bgm
+raw flap
+raw hit
+raw score
+string app_name
+style Theme.FlippyBird

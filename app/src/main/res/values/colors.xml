@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="flippybird_primary">#FF4CAF50</color>
+    <color name="flippybird_sky">#FF87CEEB</color>
+    <color name="flippybird_dark">#FF1B2838</color>
+</resources>
