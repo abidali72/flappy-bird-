@@ -198,25 +198,39 @@ fun SettingsScreen(
                             style = MaterialTheme.typography.bodyLarge.copy(color = TextGray)
                         )
                     }
-                    Button(
-                        onClick = {
-                            if (showConfirm) {
-                                viewModel.resetHighScore()
-                                showConfirm = false
-                            } else {
-                                showConfirm = true
-                            }
-                        },
-                        shape = RoundedCornerShape(12.dp),
-                        colors = ButtonDefaults.buttonColors(
-                            containerColor = if (showConfirm) Color(0xFFEF5350) else CardBg
-                        )
+                    Row(
+                        horizontalArrangement = Arrangement.spacedBy(8.dp),
+                        verticalAlignment = Alignment.CenterVertically
                     ) {
-                        Text(
-                            if (showConfirm) "CONFIRM" else "RESET",
-                            fontWeight = FontWeight.Bold,
-                            color = if (showConfirm) Color.White else Color(0xFFEF5350)
-                        )
+                        if (showConfirm) {
+                            OutlinedButton(
+                                onClick = { showConfirm = false },
+                                shape = RoundedCornerShape(12.dp),
+                                colors = ButtonDefaults.outlinedButtonColors(contentColor = TextGray)
+                            ) {
+                                Text("CANCEL", fontWeight = FontWeight.Bold)
+                            }
+                        }
+                        Button(
+                            onClick = {
+                                if (showConfirm) {
+                                    viewModel.resetHighScore()
+                                    showConfirm = false
+                                } else {
+                                    showConfirm = true
+                                }
+                            },
+                            shape = RoundedCornerShape(12.dp),
+                            colors = ButtonDefaults.buttonColors(
+                                containerColor = if (showConfirm) Color(0xFFEF5350) else CardBg
+                            )
+                        ) {
+                            Text(
+                                if (showConfirm) "CONFIRM" else "RESET",
+                                fontWeight = FontWeight.Bold,
+                                color = if (showConfirm) Color.White else Color(0xFFEF5350)
+                            )
+                        }
                     }
                 }
             }
